@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 6, 2019, 3:58:18 PM
+    Author     : Reid
+*/
+
+
+
+ h1 {
+    text-align: center;
+}
+
+#scrollTable {
+    height: 200px;
+    overflow-y: auto;
+}
+
+#mainTable {
+    height: 400px;
+    overflow-y: auto;
+}
+
+#welcomeParagraph {
+    padding: 10px;
+}
