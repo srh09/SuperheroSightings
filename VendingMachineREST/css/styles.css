@@ -1,0 +1,22 @@
+.panel {
+    text-align: center;
+		border-width: thick;
+		border-color: black;
+}
+hr {
+	border-width: thick;
+	border-color: black;
+}
+
+h4 {
+	text-align: left;
+	margin-left:10px;
+}
+
+input {
+    text-align: center; 
+}
+
+#mainHeader {
+	text-align: center;
+}

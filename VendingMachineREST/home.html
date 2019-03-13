@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vending Machine REST Client</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <style type="text/css">
+  </style>
+</head>
+<body>
+  <h1 id="mainHeader">Vending Machine</h1>
+  <hr/>
+
+  <div class="container">
+    <div id="boxDiv" class="col-md-9">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-default" id="1">
+            <h4 id="pId1"></h3>
+            <h3 id="pName1"></h3>
+
+            <h3 id="pPrice1"></h3>
+            <br>
+            <h3 id="pQuantity1"></h3>
+            <br>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-default" id="2">
+            <h4 id="pId2"></h3>
+            <h3 id="pName2"></h3>
+
+            <h3 id="pPrice2"></h3>
+            <br>
+            <h3 id="pQuantity2"></h3>
+            <br>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-default" id="3">
+            <h4 id="pId3"></h3>
+            <h3 id="pName3"></h3>
+
+            <h3 id="pPrice3"></h3>
+            <br>
+            <h3 id="pQuantity3"></h3>
+            <br>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-default" id="4">
+            <h4 id="pId4"></h3>
+            <h3 id="pName4"></h3>
+
+            <h3 id="pPrice4"></h3>
+            <br>
+            <h3 id="pQuantity4"></h3>
+            <br>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-default" id="5">
+            <h4 id="pId5"></h3>
+            <h3 id="pName5"></h3>
+
+            <h3 id="pPrice5"></h3>
+            <br>
+            <h3 id="pQuantity5"></h3>
+            <br>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-default" id="6">
+            <h4 id="pId6"></h3>
+            <h3 id="pName6"></h3>
+
+            <h3 id="pPrice6"></h3>
+            <br>
+            <h3 id="pQuantity6"></h3>
+            <br>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-default" id="7">
+            <h4 id="pId7"></h3>
+            <h3 id="pName7"></h3>
+
+            <h3 id="pPrice7"></h3>
+            <br>
+            <h3 id="pQuantity7"></h3>
+            <br>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-default" id="8">
+            <h4 id="pId8"></h3>
+            <h3 id="pName8"></h3>
+
+            <h3 id="pPrice8"></h3>
+            <br>
+            <h3 id="pQuantity8"></h3>
+            <br>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-default" id="9">
+            <h4 id="pId9"></h3>
+            <h3 id="pName9"></h3>
+
+            <h3 id="pPrice9"></h3>
+            <br>
+            <h3 id="pQuantity9"></h3>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="infoDiv">
+      <div class="col-md-3" align="center">
+        <h2>Total $ In</h2>
+        <input type="text" class="form-control" id="total-money-display" readonly/>
+        <br>
+        <button class="btn btn-secondary btn-lg" id="dollar-button">
+          Add Dollar
+        </button>
+        <button class="btn btn-secondary btn-lg" id="quarter-button">
+          Add Quarter
+        </button>
+        <br>
+        <br>
+        <button class="btn btn-secondary btn-lg" id="dime-button">
+          Add Dime
+        </button>
+        <button class="btn btn-secondary btn-lg" id="nickel-button">
+          Add Nickel
+        </button>
+        <br>
+        <hr/>
+        <h2>Messages</h2>
+        <input type="text" class="form-control" id="message-display">
+        <div class="form-horizontal" id="edit-form">
+          <br>
+            <div class="form-group">
+                <label for="item-display" class="col-md-4 control-label">
+                    Item:
+                </label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="item-display"/>
+                </div>
+            </div>
+            <button class="btn btn-secondary btn-lg btn-block" id="purchase-button">
+              Make Purchase
+            </button>
+            <br>
+            <hr/>
+            <h2>Change</h2>
+            <input type="text" class="form-control" id="change-display"/>
+            <br>
+            <button class="btn btn-secondary btn-lg" id="change-button">
+              Change Return
+            </button>
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>
