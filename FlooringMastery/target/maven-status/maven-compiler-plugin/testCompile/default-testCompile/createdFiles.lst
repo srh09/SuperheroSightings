@@ -1,0 +1,4 @@
+com\swcguild\flooringmastery\service\ServiceImplFMTest.class
+com\swcguild\flooringmastery\dao\ProductDaoImplFMTest.class
+com\swcguild\flooringmastery\dao\OrderDaoImplFMTest.class
+com\swcguild\flooringmastery\dao\TaxDaoImplFMTest.class
